@@ -1,6 +1,6 @@
-# ideasms
+# sql_db
 
-A SMS and Push Notification Flutter application.
+A new Flutter project.
 
 ## Getting Started
 

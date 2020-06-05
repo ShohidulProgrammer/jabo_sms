@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Divider kListSparatorDivider() {
+Divider klistSparatorDivider() {
   return Divider(
     height: 16.0,
     endIndent: 5.0,

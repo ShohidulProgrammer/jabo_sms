@@ -1,5 +1,5 @@
-name: ideasms
-description: A SMS and Push Notification Flutter application.
+name: sql_db
+description: A new Flutter project.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -14,31 +14,35 @@ description: A SMS and Push Notification Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  path_provider: ^1.3.0
+  provider: ^3.1.0
+  http: ^0.12.0+2
+  sms: ^0.2.4
+  
+  intl: ^0.16.0
+  connectivity: ^0.4.4
+  flutter_sms: ^1.0.1
+  
+  flutter_slidable: ^0.5.3
+  fluttertoast: ^3.1.3
+  sqflite: ^1.1.6+5
+  path: ^1.6.4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  path_provider: ^1.4.0
-  http: ^0.12.0+2
-  firebase_messaging: ^6.0.9
-  intl: ^0.16.0
-  flutter_slidable: ^0.5.4
-  fluttertoast: ^3.1.3
-  sqflite: ^1.1.7+2
-  provider: ^4.0.1
-  path: ^1.6.4
-  states_rebuilder: ^1.6.1
-  streams_channel: ^0.2.2
-
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  moor_generator: ^1.7.1
+  build_runner:
 
 
 # For information on the generic Dart part of this file, see the
